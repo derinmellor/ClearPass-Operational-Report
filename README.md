@@ -47,7 +47,7 @@ ClearPass' operation including:<BR>
 Use both reports will help identify problems and optimise the ClearPass' 
 operation.<BR>
 If there are any reports that are suboptimal or you require other reports
-please email derin.mellor@gmail.com with you requirement and I'll see 
+please email mellor.derin@gmail.com with you requirement and I'll see 
 what the effort is to add it in.<BR><BR>
 
 WARNING: This is Alpha code with minimal testing. Extreme care should be 
