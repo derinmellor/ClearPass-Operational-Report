@@ -19,7 +19,7 @@
 # I very much doubt that it will work on 6.10 due to changes in the
 # underlying SQL database structure.
 
-To run the program use:
+To run the program use:<BR>
    report.exe [-D] [-d|-w|-m]
 Where the options
 -D (debug) is available if problems occur.
