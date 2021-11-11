@@ -15,9 +15,7 @@
 # WARNING: Minimal testing has been done on this code. 
 # Please treat with extreme care.
 
-# This has only been tested on ClearPass 6.7-6.9.
-# I very much doubt that it will work on 6.10 due to changes in the
-# underlying SQL database structure.
+# This has only been tested on ClearPass 6.7-6.9. I very much doubt that it will work on 6.10 due to changes in the underlying SQL database structure.
 
 To run the program use:<BR>
    report.exe [-D] [-d|-w|-m]<BR>
