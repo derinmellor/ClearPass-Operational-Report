@@ -15,7 +15,7 @@
 # WARNING: Minimal testing has been done on this code. 
 # Please treat with extreme care.
 
-# This has only been tested on ClearPass 6.7-6.9. I very much doubt that it will work on 6.10 due to changes in the underlying SQL database structure.
+# This has only been tested on ClearPass 6.7-6.9. I very much doubt that it will work on 6.10 due to changes in the underlying Insight SQL database structure.
 
 To run the program use:<BR>
    report.exe [-D] [-d|-w|-m]<BR>
@@ -24,13 +24,14 @@ Where the options<BR>
 		This -D is a global setting and generates a lot of logs.
 		If you have an issue please use the -D option and send 
 		these details with a description of the problem to 
-		derin.mellor@gmail.com<BR>
+		mellor.derin@gmail.com<BR>
 -d reports yesterday up to yesterday at 23:59:59<BR>
 -w reports last week up to yesterday at 23:59:59<BR>
 -m reports last 4 weeks up to yesterday at 23:59:59<BR><BR>
 NOTE: If this file's [report] section has the 'start' and 'end' 
  attributes defined these values will be used irrespective of the 
- -d|-w|-m settings.<BR><BR>
+ -d|-w|-m settings.<BR>
+If no values set it will prompt or use values from the report.ini file.<BR>
 
 Running this program will generate two PDFs:<BR>
 1) Executive Summary report: This provides a quick overview of the 
